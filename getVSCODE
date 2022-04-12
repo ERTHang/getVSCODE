@@ -1,0 +1,5 @@
+wget https://az764295.vo.msecnd.net/stable/8dfae7a5cd50421d10cd99cb873990460525a898/code-stable-x64-1649258098.tar.gz
+tar -xvf code*
+mv VSCode-linux-x64 ~/Documentos
+echo "export PATH=$PATH:/home/udesc/Documentos/VSCode-linux-x64/bin" >> ~/.bashrc
+source ~/.bashrc
